@@ -1,0 +1,43 @@
+body {
+      background-repeat: no-repeat;
+
+      background-size: cover;
+
+      background-color:red;
+     }
+   img
+     {
+       float: left;
+       width: 400px;
+       height: 400px;
+       margin-left: 15px;
+       margin-right: 15px;
+       border-radius: 200px;
+       border-style: double;
+     }
+   img:hover
+ {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.link
+{
+  color: #ef10e8;
+  background: #00f7a4;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+.link:hover
+{
+  background: green;
+  color:#FFFFFF;
+}
+.link:visited
+{
+  color:purple;
+}
+.link:active
+{
+  background: #ef10e8;
+  color: #00f7a4;
+}
